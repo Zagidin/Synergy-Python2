@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf27e34e-1f93-4467-b1e0-871b0b8c24b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DZ_4/img/Magamedragimov_Zagidin_DZ4(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_4/img/Magamedragimov_Zagidin_DZ4(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_4/img/Magamedragimov_Zagidin_DZ4(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_4/word/Магамедрагимов Загидин.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ_3/class.py" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_3/class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ_4/DZ_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_4/DZ_4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZ_4/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/DZ_4/inheritance.py" afterDir="false" />
-    </list>
+    <list default="true" id="cf27e34e-1f93-4467-b1e0-871b0b8c24b0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702751745103</updated>
-      <workItem from="1702751752886" duration="12474000" />
+      <workItem from="1702751752886" duration="12904000" />
     </task>
     <servers />
   </component>
