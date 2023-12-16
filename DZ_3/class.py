@@ -1,7 +1,7 @@
 # Создаём класс `Car`
 class Car:
     # Добавляем атрибуты `make` (марка автомобиля), `model` (модель автомобиля) и `year` (год выпуска).
-    def __init__(self, make, model, year):
+    def __init__(self, make=None, model=None, year=None):
         self.make = make
         self.model = model
         self.year = year

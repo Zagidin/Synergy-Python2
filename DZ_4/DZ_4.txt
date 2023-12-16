@@ -1,0 +1,38 @@
+# Создаём класс "Маму" для всех остальных, называем его 'Animal', и создаём переменные
+class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+
+    # Вывод переменных
+    def make_sound(self):
+        print(f'{self.species} {self.name} издаёт такой звук:')
+
+
+# Создаём подклассы наследующие "Маму"-'Animal'
+class Dog(Animal):
+
+    # Вывод проги
+    def make_sound(self):
+        print(f'{self.species} {self.name} издаёт такой звук: << Гав >>')
+
+
+# Создаём подклассы наследующие "Маму"-'Animal'
+class Cat(Animal):
+
+    # Вывод проги
+    def make_sound(self):
+        print(f'{self.species} {self.name} издаёт такой звук: << Мяу >>')
+
+
+# Ну тут уже всё понятно, выводим всё и играемся с нашими созданными классами
+species = input("Введите вид животного <собака / кошка>: ").lower()
+name = input("Введите имя животного: ")
+
+# А тут условие, если определённое слово то работает определённый подкласс наследник
+if species == 'кошка' or species == 'кот':
+    animal = Cat('Кот(шка)', name)
+else:
+    animal = Dog('Собака', name)
+
+animal.make_sound()
