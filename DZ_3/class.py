@@ -6,14 +6,16 @@ class Car:
         self.model = model
         self.year = year
 
+        # Выводим результат
+        self.display_info()
+
     # Создаём метод `display_info()`, который выводит информацию о машине (марка, модель и год).
     def display_info(self):
         print("Maker: " + self.make, "Model: " + self.model, "Year: " + self.year, sep=' | ')
 
 
 # Обращаемся к классу записываем атрибуты и через точку обращаемся к методу вывода
-Car(make='LADA', model='Priora', year='2018').display_info()
+Car(make='LADA', model='Priora', year='2018')
 # Тут пользователь сам вводит марку, модель, год выпуска
-Car(make=input('Введите марку автомобиля: '), model=input("Введите модель машины: "), year=input("Введите год выпуска автомобиля: ")).display_info()
-
-
+Car(make=input('Введите марку автомобиля: '), model=input("Введите модель машины: "),
+    year=input("Введите год выпуска автомобиля: "))

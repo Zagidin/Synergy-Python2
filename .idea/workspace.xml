@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf27e34e-1f93-4467-b1e0-871b0b8c24b0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DZ_3/class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_3/img/Magamedragimov_Zagidin_DZ3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DZ_3/word/Магамедрагимов Загидин.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DZ_4/DZ_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DZ_4/inheritance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702751745103</updated>
-      <workItem from="1702751752886" duration="3192000" />
+      <workItem from="1702751752886" duration="4242000" />
     </task>
     <servers />
   </component>
@@ -86,6 +84,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Synergy_Python2$class.coverage" NAME="class Coverage Results" MODIFIED="1702754938656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DZ_3" />
+    <SUITE FILE_PATH="coverage/Synergy_Python2$class.coverage" NAME="class Coverage Results" MODIFIED="1702755795163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DZ_3" />
   </component>
 </project>
