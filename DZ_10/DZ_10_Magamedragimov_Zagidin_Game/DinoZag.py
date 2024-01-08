@@ -7,38 +7,38 @@ time_clock = pygame.time.Clock()
 window = pygame.display.set_mode((1155, 650))
 pygame.display.set_caption('Dino-Zagi')
 
-icon_game = pygame.image.load('game_Dino-Zagi/dino_icon.png').convert_alpha()
+icon_game = pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/game_Dino-Zagi/dino_icon.png').convert_alpha()
 pygame.display.set_icon(icon_game)
 
 # Музыка фоновая
-music_fon_game = pygame.mixer.Sound('sound_game/game_fon_sound.mp3')
+music_fon_game = pygame.mixer.Sound('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/sound_game/game_fon_sound.mp3')
 music_fon_game.play()
 
-fon_game = pygame.image.load('fon_game/game_pole.png').convert_alpha()
+fon_game = pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/fon_game/game_pole.png').convert_alpha()
 
 # Позиция дино
 dino_x, dino_y = 50, 323
 # Движение дино
 dino_run = [
-    pygame.image.load('dino_zag_player_right/dino_run1.png').convert_alpha(),
-    pygame.image.load('dino_zag_player_right/dino_run2.png').convert_alpha()
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_zag_player_right/dino_run1.png').convert_alpha(),
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_zag_player_right/dino_run2.png').convert_alpha()
 ]
 
 dino_run_left = [
-    pygame.image.load('dino_zag_player_left/dino_run1 (1).png').convert_alpha(),
-    pygame.image.load('dino_zag_player_left/dino_run2 (1).png').convert_alpha()
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_zag_player_left/dino_run1 (1).png').convert_alpha(),
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_zag_player_left/dino_run2 (1).png').convert_alpha()
 ]
 
 dino_run_down = [
-    pygame.image.load('dino_down/dino_down1.png').convert_alpha(),
-    pygame.image.load('dino_down/dino_down2.png').convert_alpha()
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_down/dino_down1.png').convert_alpha(),
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_down/dino_down2.png').convert_alpha()
 ]
 dino_active = 0
 
 fly_boo_x = 1157
 fly_dino_boo = [
-    pygame.image.load('dino_fly/fly1.png').convert_alpha(),
-    pygame.image.load('dino_fly/fly2.png').convert_alpha()
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_fly/fly1.png').convert_alpha(),
+    pygame.image.load('DZ_10/DZ_10_Magamedragimov_Zagidin_Game/dino_fly/fly2.png').convert_alpha()
 ]
 
 fly_active = 0
